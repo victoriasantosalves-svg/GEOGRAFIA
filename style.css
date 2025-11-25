@@ -2,6 +2,8 @@ body{
     color:rgb(226, 25, 209);
     background:rgb(3, 231, 155);
     margin: 0px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 100px;
 }
 
 header{ 
@@ -11,7 +13,7 @@ header{
     color: blue;
 }
 
-section{
+.chamada{
     background: white;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -20,4 +22,37 @@ section{
 }
 .chamada-texto{
     margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 40px;
+}
+img{
+    height: 200px;
+}
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img{
+    opacity: o.5;
+    height: 200px;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid red;
+}
+
+.categoria h2{
+    color: blue;
 }
